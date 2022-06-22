@@ -78,7 +78,7 @@ ul{
 li{
     list-style:var(--text-decoration);
     padding: .3em;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .phone{

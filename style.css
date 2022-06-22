@@ -113,7 +113,7 @@ div ul .h4 {
 footer{
     background-color: #ecf0f1;
     box-sizing: border-box;
-    height: 50px;
+    height: 26px;
     width: 100%;
     margin-top: auto;
     font-size: 12px;
@@ -121,10 +121,6 @@ footer{
     line-height: 26px;
 }
 
-footer a{
-    text-decoration: none;
-    color: rgb(198, 26, 26);
-}
 
 @media screen and (max-width:400px) {
     ul{

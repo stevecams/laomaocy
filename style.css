@@ -5,6 +5,7 @@
 
 :root{
     --text-decoration: none;
+
 }
 html{
     height: 100%;
@@ -32,7 +33,6 @@ html{
 }
 
 .list-group a{
-    /* padding-left: 20px; */
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -65,22 +65,48 @@ html{
 
 
 ul{
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
-    padding: 5px 10px;
-    /* background-color: #ffffff; */
+    padding: 10px 10px;
+    border-radius: 8px;
     background-color:rgba(58, 51, 51, 0.075);
-    /* align-items:center; */
     margin-bottom: 20px;
     box-sizing: border-box;
-    border-bottom: 1px dashed rgb(205, 199, 199);
-    
+    /* border-bottom: 1px dashed rgb(205, 199, 199); */
 }
 
 li{
     list-style:var(--text-decoration);
-    padding: .3em;
+    padding: .1em;
+    font-size: 12px;
+}
+
+.phone{
+    display: inline-block;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color:crimson;
+    font-weight: bold;
+}
+
+.phone::before{
+    content: '\2706';
+    font-size: 20px;
+    padding-right: 5px;
+    font-weight: bold;
+    color: crimson;
+    position: relative;
+}
+
+
+span{
     font-size: 14px;
+    font-weight: bold;
+    color:#27ae60;
+
 }
 
 
@@ -88,27 +114,21 @@ div ul .h4 {
     font-size: 16px;
     font-weight: bold;
     color:#2f3542;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
 }
 
 
 footer{
     background-color: #ecf0f1;
     box-sizing: border-box;
-    height: 50px;
+    height: 26px;
     width: 100%;
     margin-top: auto;
-    /* position: relative; */
-    /* overflow: hidden; */
     font-size: 12px;
     text-align: center;
     line-height: 26px;
 }
 
-footer a{
-    text-decoration: none;
-    color: rgb(198, 26, 26);
-}
 
 @media screen and (max-width:400px) {
     ul{
